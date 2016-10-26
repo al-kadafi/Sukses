@@ -7,11 +7,14 @@ import org.opencv.android.BaseLoaderCallback;
 import org.opencv.android.CameraBridgeViewBase.CvCameraViewFrame;
 import org.opencv.android.LoaderCallbackInterface;
 import org.opencv.android.OpenCVLoader;
+import org.opencv.android.Utils;
 import org.opencv.core.Mat;
 import org.opencv.android.CameraBridgeViewBase;
 import org.opencv.android.CameraBridgeViewBase.CvCameraViewListener2;
 
 import android.app.Activity;
+import android.graphics.Bitmap;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -26,6 +29,8 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     private CameraBridgeViewBase mOpenCvCameraView;
     private boolean              mIsJavaCamera = true;
     private MenuItem             mItemSwitchCamera = null;
+    private Mat mRgba;
+    MediaPlayer mp;
 
     private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
         @Override
@@ -60,7 +65,9 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
         mOpenCvCameraView = (CameraBridgeViewBase) findViewById(R.id.tutorial1_activity_java_surface_view);
 
         mOpenCvCameraView.setVisibility(SurfaceView.VISIBLE);
-
+        mOpenCvCameraView.setMinimumHeight(360);
+        mOpenCvCameraView.setMinimumWidth(640);
+        mOpenCvCameraView.setMaxFrameSize(640, 360);
         mOpenCvCameraView.setCvCameraViewListener(this);
     }
 
@@ -94,10 +101,29 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     public void onCameraViewStarted(int width, int height) {
     }
 
+
     public void onCameraViewStopped() {
     }
 
+    Bitmap bmp;
     public Mat onCameraFrame(CvCameraViewFrame inputFrame) {
-        return inputFrame.rgba();
+        Mat mRgba = inputFrame.rgba();
+        bmp = Bitmap.createBitmap(mRgba.cols(),mRgba.rows(),Bitmap.Config.ARGB_8888);
+        Utils.matToBitmap(mRgba, bmp);
+//        Log.d("lebar",bmp.getWidth()+"");
+//        Log.d("tinggi",bmp.getHeight()+"");
+//			Log.d("status","masuk sisni");
+//			Bitmap tmp = Bitmap.createScaledBitmap(bmp, 522, 294, false);
+        ImageProcessing imgp = new ImageProcessing(bmp);
+
+        imgp.createLine();
+        int data[][] = imgp.getDataPixel();
+        int blobFilter = imgp.blobProcessing(data);
+
+        //coba ubah ukuran gambar
+
+        Utils.bitmapToMat(bmp, mRgba);
+
+        return mRgba;
     }
 }
