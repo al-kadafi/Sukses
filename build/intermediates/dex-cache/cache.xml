@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_9bc1e5f63a0663dfdf8b1577d03fe4334b2b5413\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_51e12fbba5315ec0588a55ef87c74f9ff8cdf842\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_eb101c3ef64f8398549bf616f5282d974910cf35\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_f4c21f5f2ae96e6587a2850a519eb7feebcb3b23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_0697a6e48a96ac9444becd3dffc9d661d1c1ff1b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_0827aec886efcc47cdffaa582336b6ce7440ffa8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Apps\android-sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_e8b8fc8eccb7d25c24477473a5889be16767bce0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_788372204c03fc08fc0448f0a1f05662848db9be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_98c278ec31fb6a0bd850636578bac3a8d964795c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_ae84462b4f99f121dea790f7411c7ebd2ca2da0a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_6ec12f6167318c55f69ad6a080e6b4d1380b4cbc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_f4b8ea260a44b05e9a9712cfb019326625381408\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_98f0bd4c77f4a51daf460be83ad5483957ca6937\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_51e3a53b4530e35e978754e6abbaf39261d1ac21\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="68c72149a07853c2e91eaa4150b780e4a2f9a13c">
+        <dex dex="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a7c2f6a6fe752bf6c5ee0d7b0042a3cb38c58d65\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c39d580f80c89824f163b9320b836ba0332ab2e">
+        <dex dex="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5b9318686931c2b2d30b7c88c4da18e91c57aaab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="D:\sekcv\Documents\JetBrains\AndroidStudio\Skripsi\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_eedc6c5af90163f554372f7743e537be02e60bef\classes.dex" />
+    </item>
+
+</items>
