@@ -118,7 +118,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
 
         imgp.createLine();
         int data[][] = imgp.getDataPixel();
-        int blobFilter = imgp.blobProcessing(data);
+//        int blobFilter = imgp.blobProcessing(data);
 
         //coba ubah ukuran gambar
 
